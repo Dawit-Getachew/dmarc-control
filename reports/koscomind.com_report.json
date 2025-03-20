@@ -1,0 +1,852 @@
+{
+    "domain": "koscomind.com",
+    "last_updated": "2025-03-20 18:40:59",
+    "senders": {
+        "google.com_2816677050343196532": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "2816677050343196532",
+                "date_range": {
+                    "begin": "2025-03-11 00:00:00",
+                    "end": "2025-03-11 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "5.78.84.84",
+                        "count": "2",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "dkim"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "2a01:4ff:1f0:cc92::1",
+                        "count": "2",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "dkim"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 4,
+                    "passed": 4,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "google.com_9548318653581473195": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "9548318653581473195",
+                "date_range": {
+                    "begin": "2025-03-12 00:00:00",
+                    "end": "2025-03-12 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "5.78.84.84",
+                        "count": "2",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "dkim"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 2,
+                    "passed": 2,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "Mimecast_fcc9e03a720e08abb45383d6310b2e919c943c57acf76d1569715f392d2f8496": {
+            "metadata": {
+                "org_name": "Mimecast",
+                "email": "no-reply@us-1.mimecastreport.com",
+                "extra_contact_info": "https://community.mimecast.com/s/knowledge",
+                "report_id": "fcc9e03a720e08abb45383d6310b2e919c943c57acf76d1569715f392d2f8496",
+                "date_range": {
+                    "begin": "2025-03-12 00:00:00",
+                    "end": "2025-03-12 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [],
+                "negative_cases": [
+                    {
+                        "source_ip": "5.78.84.84",
+                        "count": "2",
+                        "disposition": "none",
+                        "dkim": "fail",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "fail",
+                                "selector": "dkim"
+                            }
+                        ]
+                    }
+                ],
+                "summary": {
+                    "total_messages": 2,
+                    "passed": 0,
+                    "failed": 2,
+                    "failure_types": {
+                        "dkim_only": 2,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "google.com_10848494255904137234": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "10848494255904137234",
+                "date_range": {
+                    "begin": "2025-03-13 00:00:00",
+                    "end": "2025-03-13 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "2a01:4ff:1f0:cc92::1",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "dkim"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 1,
+                    "passed": 1,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "Enterprise Outlook_60a2f336b7b94ce6927015cac54cc3d4": {
+            "metadata": {
+                "org_name": "Enterprise Outlook",
+                "email": "dmarcreport@microsoft.com",
+                "report_id": "60a2f336b7b94ce6927015cac54cc3d4",
+                "date_range": {
+                    "begin": "2025-03-13 00:00:00",
+                    "end": "2025-03-14 00:00:00"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "5.78.84.84",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "koscomind.com",
+                        "envelope_to": "getlightcurve.com",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "scope": "mfrom"
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "dkim"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 1,
+                    "passed": 1,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "google.com_10505728486284229674": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "10505728486284229674",
+                "date_range": {
+                    "begin": "2025-03-14 00:00:00",
+                    "end": "2025-03-14 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "168.245.30.168",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            },
+                            {
+                                "domain": "sendgrid.info",
+                                "result": "pass",
+                                "selector": "smtpapi"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 1,
+                    "passed": 1,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "google.com_11410460728754167330": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "11410460728754167330",
+                "date_range": {
+                    "begin": "2025-03-17 00:00:00",
+                    "end": "2025-03-17 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "168.245.30.168",
+                        "count": "2",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            },
+                            {
+                                "domain": "sendgrid.info",
+                                "result": "pass",
+                                "selector": "smtpapi"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 2,
+                    "passed": 2,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "google.com_8116310323652449730": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "8116310323652449730",
+                "date_range": {
+                    "begin": "2025-03-18 00:00:00",
+                    "end": "2025-03-18 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "168.245.30.168",
+                        "count": "4",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            },
+                            {
+                                "domain": "sendgrid.info",
+                                "result": "pass",
+                                "selector": "smtpapi"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [
+                    {
+                        "source_ip": "44.202.169.34",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "fail",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "fail",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "35.89.44.34",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "fail",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "fail",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "44.202.169.38",
+                        "count": "3",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "fail",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "fail",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "44.202.169.36",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "fail",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "fail",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            }
+                        ]
+                    }
+                ],
+                "summary": {
+                    "total_messages": 10,
+                    "passed": 4,
+                    "failed": 6,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 6,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "Enterprise Outlook_3104474e7ce54943a3c72e5d887b4711": {
+            "metadata": {
+                "org_name": "Enterprise Outlook",
+                "email": "dmarcreport@microsoft.com",
+                "report_id": "3104474e7ce54943a3c72e5d887b4711",
+                "date_range": {
+                    "begin": "2025-03-18 00:00:00",
+                    "end": "2025-03-19 00:00:00"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "168.245.30.168",
+                        "count": "2",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "em8372.koscomind.com",
+                        "envelope_to": "omnifiber.com",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "pass",
+                                "scope": "mfrom"
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [
+                    {
+                        "source_ip": "168.245.30.168",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "fail",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "em8372.koscomind.com",
+                        "envelope_to": "spiritconsultingservice.com",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "pass",
+                                "scope": "mfrom"
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "fail",
+                                "selector": "s1"
+                            }
+                        ]
+                    }
+                ],
+                "summary": {
+                    "total_messages": 3,
+                    "passed": 2,
+                    "failed": 1,
+                    "failure_types": {
+                        "dkim_only": 1,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "google.com_17022025640460508746": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "17022025640460508746",
+                "date_range": {
+                    "begin": "2025-03-19 00:00:00",
+                    "end": "2025-03-19 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomind.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "none",
+                    "sp": "reject",
+                    "pct": "100"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "168.245.30.168",
+                        "count": "4",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            },
+                            {
+                                "domain": "sendgrid.info",
+                                "result": "pass",
+                                "selector": "smtpapi"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [
+                    {
+                        "source_ip": "35.89.44.32",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "fail",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "fail",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "35.89.44.36",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "fail",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "fail",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "44.202.169.36",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "fail",
+                        "reason": null,
+                        "header_from": "koscomind.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em8372.koscomind.com",
+                                "result": "fail",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomind.com",
+                                "result": "pass",
+                                "selector": "s1"
+                            }
+                        ]
+                    }
+                ],
+                "summary": {
+                    "total_messages": 7,
+                    "passed": 4,
+                    "failed": 3,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 3,
+                        "both": 0
+                    }
+                }
+            }
+        }
+    }
+}

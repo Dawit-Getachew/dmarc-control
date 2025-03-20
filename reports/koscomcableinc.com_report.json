@@ -1,0 +1,456 @@
+{
+    "domain": "koscomcableinc.com",
+    "last_updated": "2025-03-20 19:42:34",
+    "senders": {
+        "esa2.hc6131-69.iphmx.com_85c94c$874df73=58ec3e4dbe5fc900@esa2.hc6131-69.iphmx.com": {
+            "metadata": {
+                "org_name": "esa2.hc6131-69.iphmx.com",
+                "email": "MAILER-DAEMON@esa2.hc6131-69.iphmx.com",
+                "extra_contact_info": null,
+                "report_id": "85c94c$874df73=58ec3e4dbe5fc900@esa2.hc6131-69.iphmx.com",
+                "date_range": {
+                    "begin": "2025-03-18 18:30:02",
+                    "end": "2025-03-19 18:30:09"
+                },
+                "policy_info": {
+                    "domain": "koscomcableinc.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "quarantine",
+                    "sp": "reject",
+                    "pct": "50"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "35.89.44.33",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "koscomcableinc.com",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": "mfrom"
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 1,
+                    "passed": 1,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "esa1.hc6131-69.iphmx.com_fd48ba$523ffdc=6ba7370e0f9ee69a@esa1.hc6131-69.iphmx.com": {
+            "metadata": {
+                "org_name": "esa1.hc6131-69.iphmx.com",
+                "email": "MAILER-DAEMON@esa1.hc6131-69.iphmx.com",
+                "extra_contact_info": null,
+                "report_id": "fd48ba$523ffdc=6ba7370e0f9ee69a@esa1.hc6131-69.iphmx.com",
+                "date_range": {
+                    "begin": "2025-03-18 18:30:02",
+                    "end": "2025-03-19 18:30:08"
+                },
+                "policy_info": {
+                    "domain": "koscomcableinc.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "quarantine",
+                    "sp": "reject",
+                    "pct": "50"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "44.202.169.33",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "koscomcableinc.com",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": "mfrom"
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 1,
+                    "passed": 1,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "google.com_877466103581150611": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "877466103581150611",
+                "date_range": {
+                    "begin": "2025-03-19 00:00:00",
+                    "end": "2025-03-19 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "koscomcableinc.com",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "quarantine",
+                    "sp": "reject",
+                    "pct": "50"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "44.202.169.33",
+                        "count": "4",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "44.202.169.37",
+                        "count": "10",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "35.89.44.35",
+                        "count": "4",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "35.89.44.33",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "44.202.169.39",
+                        "count": "6",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "35.89.44.37",
+                        "count": "6",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "44.202.169.35",
+                        "count": "7",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "35.89.44.39",
+                        "count": "6",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [
+                    {
+                        "source_ip": "209.85.220.69",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "fail",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "fail",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "15.204.3.4",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "fail",
+                        "reason": null,
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "fwd.oxsus-vadesecure.net",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "fwd.oxsus-vadesecure.net",
+                                "result": "pass",
+                                "selector": "fwd-202206-rsa2048"
+                            },
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "2a01:111:f403:2417::727",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "fail",
+                        "spf": "fail",
+                        "reason": {
+                            "type": "sampled_out",
+                            "comment": null
+                        },
+                        "header_from": "koscomcableinc.com",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "utilitysc.com",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "netorgft10515297.onmicrosoft.com",
+                                "result": "pass",
+                                "selector": "selector1-netorgft10515297-onmicrosoft-com"
+                            },
+                            {
+                                "domain": "koscomcableinc.com",
+                                "result": "fail",
+                                "selector": "default"
+                            }
+                        ],
+                        "failure_reasons": [
+                            {
+                                "type": "sampled_out",
+                                "comment": null
+                            }
+                        ]
+                    }
+                ],
+                "summary": {
+                    "total_messages": 47,
+                    "passed": 44,
+                    "failed": 3,
+                    "failure_types": {
+                        "dkim_only": 1,
+                        "spf_only": 1,
+                        "both": 1
+                    }
+                }
+            }
+        }
+    }
+}

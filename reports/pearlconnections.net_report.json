@@ -1,0 +1,181 @@
+{
+    "domain": "pearlconnections.net",
+    "last_updated": "2025-03-20 19:36:40",
+    "senders": {
+        "emailsrvr.com_8d57b716-62c2-497c-8e60-010d138f640b": {
+            "metadata": {
+                "org_name": "emailsrvr.com",
+                "email": "dmarc_reports@emailsrvr.com",
+                "extra_contact_info": "http://emailsrvr.com",
+                "report_id": "8d57b716-62c2-497c-8e60-010d138f640b",
+                "date_range": {
+                    "begin": "2025-03-18 00:00:00",
+                    "end": "2025-03-19 00:00:00"
+                },
+                "policy_info": {
+                    "domain": "pearlconnections.net",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "quarantine",
+                    "sp": "reject",
+                    "pct": "50"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "35.89.44.39",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "pearlconnections.net",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "pearlconnections.net",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "pearlconnections.net",
+                                "result": "pass",
+                                "selector": ""
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 1,
+                    "passed": 1,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        },
+        "google.com_6040861112142988258": {
+            "metadata": {
+                "org_name": "google.com",
+                "email": "noreply-dmarc-support@google.com",
+                "extra_contact_info": "https://support.google.com/a/answer/2466580",
+                "report_id": "6040861112142988258",
+                "date_range": {
+                    "begin": "2025-03-19 00:00:00",
+                    "end": "2025-03-19 23:59:59"
+                },
+                "policy_info": {
+                    "domain": "pearlconnections.net",
+                    "adkim": "r",
+                    "aspf": "r",
+                    "p": "quarantine",
+                    "sp": "reject",
+                    "pct": "50"
+                }
+            },
+            "results": {
+                "exclusions": [
+                    {
+                        "source_ip": "168.245.30.168",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "pearlconnections.net",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "em1188.pearlconnections.net",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "pearlconnections.net",
+                                "result": "pass",
+                                "selector": "dkm"
+                            },
+                            {
+                                "domain": "sendgrid.info",
+                                "result": "pass",
+                                "selector": "smtpapi"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "44.202.169.37",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "pearlconnections.net",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "pearlconnections.net",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "pearlconnections.net",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "source_ip": "35.89.44.33",
+                        "count": "1",
+                        "disposition": "none",
+                        "dkim": "pass",
+                        "spf": "pass",
+                        "reason": null,
+                        "header_from": "pearlconnections.net",
+                        "envelope_from": "",
+                        "envelope_to": "",
+                        "auth_spf_details": [
+                            {
+                                "domain": "pearlconnections.net",
+                                "result": "pass",
+                                "scope": ""
+                            }
+                        ],
+                        "auth_dkim_details": [
+                            {
+                                "domain": "pearlconnections.net",
+                                "result": "pass",
+                                "selector": "default"
+                            }
+                        ]
+                    }
+                ],
+                "negative_cases": [],
+                "summary": {
+                    "total_messages": 3,
+                    "passed": 3,
+                    "failed": 0,
+                    "failure_types": {
+                        "dkim_only": 0,
+                        "spf_only": 0,
+                        "both": 0
+                    }
+                }
+            }
+        }
+    }
+}
